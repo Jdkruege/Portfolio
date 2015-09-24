@@ -3,6 +3,8 @@
 <head>
     <title>Main Page</title>
     <link rel="stylesheet" type="text/css" href="GenericStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
 </head>
 <body>
     <div id="Header">
@@ -13,19 +15,19 @@
 
     <div id="Navigation">
         <ul id="NavigationList">
-            <li>Main Page</li>
-            <li><a href="Academics.html">Academics</a></li>
-            <li><a href="WorkExperience.html">Work Experience</a></li>
-            <li><a href="Projects.html">Projects</a></li>
-            <li><a href="SeniorDesign.html">Senior Design Projects</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-            <li><a href="ContactMe.html">Contact Me</a></li>
+            <li><a id="main">Main Page</a></li>
+            <li><a id="academics">Academics</a></li>
+            <li><a id="work">Work Experience</a></li>
+            <li><a id="projects">Projects</a></li>
+            <li><a id="seniorDesign">Senior Design Projects</a></li>
+            <li><a id="resume">Resume</a></li>
+            <li><a id="contact">Contact Me</a></li>
         </ul>
     </div>
 
     <hr />
 
-    <div>
+    <div id="body">
         <p>
             In this portfolio I hope to showcase my skills and education to the fullest. I hope in reviewing this document you get a better sense of my abilities and what I want to do with them.
             In 10th grade I joined a technical internship program with a company in my town, they helped teach me how to code, and assigned me to real task that needed to be done in the company.
@@ -35,6 +37,14 @@
             I also am trying to persue some work in the game development field, as that is where I hope to wind up after graduation.
         </p>
     </div>
+
+    <script>
+        $(document).ready(function(){
+            $("a").click(function(){
+                $("#body").load(this.id + ".html");
+            });
+        });
+    </script>
 
 </body>
 </html>
