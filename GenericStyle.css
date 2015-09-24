@@ -23,3 +23,18 @@ p
     padding-right:200px;
 
 }
+
+#tab
+{
+    padding-left: 25px;
+}
+
+#tab #head
+{
+    margin-bottom: 1px;
+}
+
+#tab p
+{
+    margin-top: 1px;
+}
