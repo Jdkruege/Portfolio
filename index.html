@@ -17,6 +17,7 @@
         <ul id="NavigationList">
             <li><a id="main">Main Page</a></li>
             <li><a id="academics">Academics</a></li>
+            <li><a id="education">General Education</a></li>
             <li><a id="reflections">Reflections</a></li>
             <li><a id="work">Work Experience</a></li>
             <li><a id="projects">Projects</a></li>
@@ -42,6 +43,8 @@
         $(document).ready(function(){
             $("a").click(function(){
                 $("#body").load(this.id + ".html");
+                $(".selected").removeClass("selected");
+                $(this).addClass("selected");
             });
         });
     </script>
