@@ -24,17 +24,17 @@ p
 
 }
 
-#tab
+.tab
 {
     padding-left: 25px;
 }
 
-#tab #head
+.tab .head
 {
     margin-bottom: 1px;
 }
 
-#tab p
+.tab p
 {
     margin-top: 1px;
 }
