@@ -76,7 +76,6 @@
     <Content Include="projects\demos\web.unity3d" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="education\academics.html" />
     <Content Include="contact.html" />
     <Content Include="education\education.html" />
     <Content Include="stylesheets\GenericStyle.css" />
