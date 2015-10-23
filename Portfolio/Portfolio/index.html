@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Main Page</title>
+    <title>main</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/GenericStyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
@@ -33,6 +33,7 @@
     <script>
 
         $("#main").data("location", "main");
+        $("#main").addClass("selected");
         $("#academics").data("location", "education/academics");
         $("#education").data("location", "education/education");
         $("#reflections").data("location", "education/reflections");
@@ -46,10 +47,11 @@
                 $("#body").load($(this).data("location") + ".html");
                 $(".selected").removeClass("selected");
                 $(this).addClass("selected");
+                $("title").text(this.id);
             });
 
             $("#body").load($("#main").data("location") + ".html");
-            $("#main").addClass("selected");
+            
         });
     </script>
 
