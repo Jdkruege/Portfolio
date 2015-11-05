@@ -34,7 +34,6 @@ h1
     float: left;
     width: 200px;
     background-color: red;
-
     margin: 5px;
 }
 
@@ -76,6 +75,7 @@ ul#NavigationList li
 #NavigationList a:hover
 {
     background-color: gold;
+    color: black;
     cursor:pointer;   
 }
 
