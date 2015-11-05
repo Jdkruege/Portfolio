@@ -11,23 +11,26 @@
         <h1>Jonathan Krueger</h1>
     </div>
 
-    <hr />
+    <div id="Body">
 
-    <div id="Navigation">
-        <ul id="NavigationList">
-            <li><a id="main">Main Page</a></li>
-            <li><a id="education">General Education</a></li>
-            <li><a id="reflections">Reflections</a></li>
-            <li><a id="work">Work Experience</a></li>
-            <li><a id="projects">Projects</a></li>
-            <li><a id="resume">Resume</a></li>
-            <li><a id="contact">Contact Me</a></li>
-        </ul>
+        <div id="Navigation">
+            <ul id="NavigationList">
+                <li><a id="main">Main Page</a></li>
+                <li><a id="education">General Education</a></li>
+                <li><a id="reflections">Reflections</a></li>
+                <li><a id="work">Work Experience</a></li>
+                <li><a id="projects">Projects</a></li>
+                <li><a id="about">About Me</a></li>
+            </ul>
+        </div>
+
+        <div id="Content"></div>
+
     </div>
 
-    <hr />
+    <div id="Footer">
 
-    <div id="body"></div>
+    </div>
 
     <script>
 
@@ -38,20 +41,21 @@
         $("#work").data("location", "work/work");
         $("#projects").data("location", "projects/projects");
         $("#resume").data("location", "work/resume");
-        $("#contact").data("location", "contact");
+        $("#about").data("location", "about/about");
 
-        $(document).ready(function(){
-            $("a").click(function(){
-                $("#body").load($(this).data("location") + ".html");
+        $(document).ready(function () {
+            $("a").click(function () {
+                $("#Content").load($(this).data("location") + ".html");
                 $(".selected").removeClass("selected");
                 $(this).addClass("selected");
                 $("title").text(this.id);
             });
 
-            $("#body").load($("#main").data("location") + ".html");
-            
+            $("#Content").load($("#main").data("location") + ".html");
+
         });
     </script>
 
 </body>
+
 </html>
