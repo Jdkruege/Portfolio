@@ -1,0 +1,179 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  margin: 0 !important;
+}
+header nav {
+  background-color: #666699;
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+header li:hover {
+  cursor: pointer !important;
+}
+header li a {
+  color: white !important;
+  cursor: pointer !important;
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+  transition-property: color;
+  transition-timing-function: ease;
+}
+header li a:before {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  color: transparent;
+  content: '\b0\b0\b0';
+  text-shadow: 0 0 transparent;
+  font-size: 1.2em;
+  transition: text-shadow 0.2s, color 0.2s;
+  transform: translateX(-50%);
+}
+header li a:hover {
+  background-color: #151843 !important;
+}
+header li a:hover:before {
+  color: white;
+}
+header li.active-section {
+  background-color: #151843 !important;
+}
+header li.home-button {
+  background-color: #666699 !important;
+}
+#home {
+  background-color: #666699;
+}
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  display: none;
+}
+
+.page > .page-header {
+  margin-top: 50px;
+  text-align: center;
+  border: 0;
+}
+
+.page > .page-header h3 {
+  display: inline-block;
+  border-bottom-color: #666699;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  box-sizing: border-box;
+  color: #151843;
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 39.6px;
+  text-align: center;
+}
+
+.active-page {
+  display: block;
+}
+
+.panel-heading {
+  background-color: #DBDAE8 !important;
+}
+
+.engine-icons {
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+
+.engine-icons img {
+  height: 25px;
+  width: 25px;
+}
+
+#education .course {
+  margin-top: 50px;
+}
+
+#education .blurb-image {
+  height: 128px;
+  width: 128px;
+}
+
+#education .course-info {
+  text-align: left;
+}
+
+.work-date {
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+
+#home .personal {
+      font-size: 90px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-family: 'Revalia', cursive;
+}
+
+#home .personal img {
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #151843;
+    background: #eee;
+}
+
+#home .career-title {
+  font-size: 30px;
+  color: white;
+}
+.social-buttons {
+  margin-top: 20px;
+}
+.social-buttons:hover {
+  cursor: pointer;
+}
+.social-buttons .btn-circle {
+  padding: 12px;
+  min-width: 48px;
+  margin: 10px;
+  background: transparent;
+  border: 2px dotted white;
+  border-radius: 50%;
+  color: white;
+}
+.social-buttons .btn-circle:hover {
+  text-decoration: none;
+}
+
+.social-buttons .btn-circle:hover {
+    background: white;
+    color: black;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
