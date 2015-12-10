@@ -1,625 +1,713 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		<link href="css/app.css" type="text/css" media="screen, projection" rel="stylesheet"/>
-        <title>Jonathan Krueger</title>
-    </head>
-    <body>
-		<div class="container-fluid">
-			<header class="row">
-				<nav class="col-sm-12">
-					<ul class="nav navbar-nav navbar-right">
-						<li target="home" class="home-button active-section"><a>Home</a></li>
-						<li target="aboutMe"><a>About Me</a></li>
-						<li target="education"><a>Education</a></li>
-						<li target="reflections"><a>Reflections</a></li>
-						<li target="experience"><a>Work Experience</a></li>
-						<li target="projects"><a>Projects</a></li>
-					</ul>
-				</nav>
-			</header>
-		</div>
 
-		<div class="container-fluid">
-			<div class="row">
-				<div id="home" class="col-sm-12 page active-page" index="0">
-					<div class="row page-header">
-						<div class="col-sm-8 col-sm-offset-2 personal">
-                            <img src="images/MyFace.jpg" />
-							Jonathan Krueger
-						</div>
-						<div class="col-sm-8 col-sm-offset-2 career-title">
-							Software Engineer
-						</div>
-						<div class="col-sm-8 col-sm-offset-2 social-buttons">
-                            <a class="btn-circle" href="https://github.com/Jdkruege" target="_blank">
-                                <i class="fa fa-github"></i>
-                            </a>
-                            <a class="btn-circle" href="https://www.linkedin.com/in/jonathan-krueger-7a966910b" target="_blank">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                            <a class="btn-circle" href="mailto:jdkruege@iastate.edu">
-                                <i class="fa fa-envelope"></i>
-                            </a>
-						</div>
-					</div>
-				</div>
-				
-				<div id="aboutMe" class="col-sm-12 page" index="1">
-					<div class="row page-header">
-						<div class="col-sm-8 col-sm-offset-2">
-							<h3>About Me</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-8 col-sm-offset-2">
-							<div>
-								<p>
-									Hello! My name is Jonathan Krueger. I am currently a senior Iowa State University (ISU) in their Software Engineering program and will graduate in May 2016. 
-                                    I am interested in producing games that are not only fun to play, but also easy to learn, and challenging to the people playing them.
-								</p>
-                                <p>
-                                    I have developed several small games using XNA, Unity 5, Unreal Engine 4, and CryEngine 3 in order to help me better understand the strengths of each development enviornment. 
-                                    Currently my focus is split between Unreal Engine 4 (Currently being used for one of my senior design projects) and Unity 5 (my preferrred development environment).
-                                </p>
-                                <p>
-                                    In this portfolio I plan to showcase my skills and education to potential employers. I hope in reviewing this portfolio you get a better sense of my abilities and my goals.
-                                </p>
-                                <p>
-                                    During my sophomore year of highschool, I as offered a technical internship position with Rockwell Collins in Cedar Rapids, Iowa. The company provided an in-depth course in software development using C++, 
-                                    and then assigned me to real project task where I Ccould apply what I leanred. I remained in this position until heading off to college. This exprience influenced my decision to pursure a Software Engineering degree at ISU. During one of my review sessions, 
-                                    the manager of the program told me that I had the skills to make a good manager someday.
-                                </p>
-                                <p>
-                                    I believe the Software Engineering program provided not only the technical training necessary, but also gave me a good foundation to communicate and work in a team environment.
-                                    Through my assignments and experience here at ISU I have acquired team skills including cooperation, leadership, and communication; and I have applied these skills in each pgroup project.
-                                    I am able to take either a leader or support role in a group, dpeneding on the current group dynamic. If leadership is needed I am able to step up to the task and try to build a consensus.
-                                    However if somone else would prefer to lead I am willing to follow and support. 
-                                </p>
-                                <p>
-                                    I am slo interested in developing softare for more general purposed. I am very resourceful , and am adept at locating, or creating, solutions to most issues. 
-                                    I view engineering as a process of always learning new things; where each problem faced is an opportunity to acquire and apply new skills.
-                                </p>
-								<p>
-									Listed below are links to my resume and the repository for this site. Please check them out for more detailed information on me and the work I've performed.
-								</p>
-                                <p>
-                                    Contact me via phone at: (319)481-9881 or via email at <a href="mailto:jdkruege@iastate.edu"> jdkruege@iastate.edu </a>
-                                </p>
-								<p>
-									Resume: <a href="/files/MyResume.pdf" target="_blank">Resume</a>
-								</p>
-								<p>
-									Repository of this site: <a href="https://github.com/Jdkruege/Portfolio" target="_blank">Portfolio</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div id="education" class="col-sm-12 page" index="2">
-					<div class="row page-header">
-						<div class="col-sm-8 col-sm-offset-2">
-							<h3>Education</h3>
-						</div>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="css/app.css" type="text/css" media="screen, projection" rel="stylesheet" />
+    <title>Jonathan Krueger</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top header-nav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="header-menu">
+                <ul class="nav navbar-nav pull-right">
+                    <li target="home" class="home-button active-section"><a>Home</a></li>
+                    <li target="aboutMe"><a>About Me</a></li>
+                    <li target="education"><a>Education</a></li>
+                    <li target="reflections"><a>Reflections</a></li>
+                    <li target="experience"><a>Work Experience</a></li>
+                    <li target="projects"><a>Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="home" class="col-sm-12 page active-page" index="0">
+                <div class="row page-header">
+                    <div class="col-sm-8 col-sm-offset-2 personal">
                         <div class="row">
-						    <div class="col-sm-8 col-sm-offset-2">
-							    <div>
-                                    <p>
-                                        Below I have chodsen to highlight some of the more notable classes that I have taken at Iowa State. These classes are ones that
-                                        I feel have influenced my education and have given me valuable experience outside of the generic programming track.
-                                    </p>
-                                </div>
-                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="images/MyFace.jpg" class="headshot img-responsive"/></div>
+                            <div class="col-lg-10 col-md-9 col-sm-8 col-xs-12">Jonathan Krueger</div>
                         </div>
-                        <div class="col-sm-8 col-sm-offset-2 course">
-                            <div class="row">
-                                <div class="col-sm-2">
-                                    <img class="blurb-image" src="images/WebGL.png" />
-                                </div>
-                                <div class="col-sm-10 course-info">
-                                    <h4>Intro to Computer Graphics</h4>
-                                    <p>
-                                        This course gave me the fundamentals of how render objects in 3D space. It taught me about shaders, matrix manipulations, applying textures, and how to apply these concepts in a browser.
-                                        This class taught me how to program graphics using WebGL via javascript, and briefly mentioned the intricacies of higher level languages. For the final presentation in this class I prototyped an
-                                        algorithm that would create smooth randomly generated terrain using sample terrain tiles.
-                                    </p>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2 career-title">
+                        Software Engineer
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2 social-buttons">
+                        <a class="btn-circle" href="https://github.com/Jdkruege" target="_blank">
+                            <i class="fa fa-github"></i>
+                        </a>
+                        <a class="btn-circle" href="https://www.linkedin.com/in/jonathan-krueger-7a966910b" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a class="btn-circle" href="mailto:jdkruege@iastate.edu">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="aboutMe" class="col-sm-12 page" index="1">
+                <div class="row page-header">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h3>About Me</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div>
+                            <p>
+                                Hello! My name is Jonathan Krueger. I am currently a senior Iowa State University (ISU) in their Software Engineering program
+                                and will graduate in May 2016. I am interested in producing games that are not only fun to
+                                play, but also easy to learn, and challenging to the people playing them.
+                            </p>
+                            <p>
+                                I have developed several small games using XNA, Unity 5, Unreal Engine 4, and CryEngine 3 in order to help me better understand
+                                the strengths of each development enviornment. Currently my focus is split between Unreal
+                                Engine 4 (Currently being used for one of my senior design projects) and Unity 5 (my preferrred
+                                development environment).
+                            </p>
+                            <p>
+                                In this portfolio I plan to showcase my skills and education to potential employers. I hope in reviewing this portfolio you
+                                get a better sense of my abilities and my goals.
+                            </p>
+                            <p>
+                                During my sophomore year of highschool, I as offered a technical internship position with Rockwell Collins in Cedar Rapids,
+                                Iowa. The company provided an in-depth course in software development using C++, and then
+                                assigned me to real project task where I Ccould apply what I leanred. I remained in this
+                                position until heading off to college. This exprience influenced my decision to pursure a
+                                Software Engineering degree at ISU. During one of my review sessions, the manager of the
+                                program told me that I had the skills to make a good manager someday.
+                            </p>
+                            <p>
+                                I believe the Software Engineering program provided not only the technical training necessary, but also gave me a good foundation
+                                to communicate and work in a team environment. Through my assignments and experience here
+                                at ISU I have acquired team skills including cooperation, leadership, and communication;
+                                and I have applied these skills in each pgroup project. I am able to take either a leader
+                                or support role in a group, dpeneding on the current group dynamic. If leadership is needed
+                                I am able to step up to the task and try to build a consensus. However if somone else would
+                                prefer to lead I am willing to follow and support.
+                            </p>
+                            <p>
+                                I am slo interested in developing softare for more general purposed. I am very resourceful , and am adept at locating, or
+                                creating, solutions to most issues. I view engineering as a process of always learning new
+                                things; where each problem faced is an opportunity to acquire and apply new skills.
+                            </p>
+                            <p>
+                                Listed below are links to my resume and the repository for this site. Please check them out for more detailed information
+                                on me and the work I've performed.
+                            </p>
+                            <p>
+                                Contact me via phone at: (319)481-9881 or via email at <a href="mailto:jonathan.krueger@mchsi.com"> jonathan.krueger@mchsi.com </a>
+                            </p>
+                            <p>
+                                Resume: <a href="/files/Resume.pdf" target="_blank">Resume</a>
+                            </p>
+                            <p>
+                                Repository of this site: <a href="https://github.com/Jdkruege/Portfolio" target="_blank">Portfolio</a>
+                            </p>
                         </div>
-						<div class="col-sm-8 col-sm-offset-2 course">
-							<div class="row">
-								<div class="col-sm-10 course-info">
-									<h4>Computer Game Programming</h4>
-									<p>
-                                        After learning about graphics I decided to pursue a class dedicated to teaching the concepts of programming games. This class gave me introductions to XNA, Unity, AI algorithms, and some minor modelling in blender.
-                                        I took part in a semester long professional project where we marketed, and developed, a game for the Battleship Iowa museum, working with a staff member on the ship. I also researched and presented a 30 minute tutorial
-                                        on game creation using CryEngine 3, showing students how to build a simple game.
-									</p>
-								</div>
-								<div class="col-sm-2">
-									<img class="blurb-image" src="images/joypad.png" />
-								</div>
-							</div>
-						</div>
-                        <div class="col-sm-8 col-sm-offset-2 course">
-                            <div class="row">
-                                <div class="col-sm-2">
-                                    <img class="blurb-image" src="images/spyglass.png" />
-                                </div>
-                                <div class="col-sm-10 course-info">
-                                    <h4>Principles of Programming Languages</h4>
-                                    <p>
-                                        Principles of Programming Languages was a class that focused on breaking down the common themes present in modern scripting languages. We studied an inhouse scripting language built using Java.
-                                        The common idea of this course was to introduce a concept of a language, look at how to implement it, and then work with and extend the language. During our coursework we explored concepts such as: Grammars, Interpreters,
-                                        Memory, Garbage Collection, Lambdas, Type checking, and variables. This class gave me an exceptional look into the mechanics that form languages I use everyday. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>                        
-                        <div class="col-sm-8 col-sm-offset-2 course">
-                            <div class="row">
-                                <div class="col-sm-10 course-info">
-                                    <h4>Software Project Management</h4>
-                                    <p>
-                                        Software Project Management was a class that sought to teach students about the core responsibilites of a project manager. In this course students were split up into groups for four unique projects, 
-                                        in which each student would be given the chance to be a manager. It was through the coursework and the projects that I was able to get a better understanding of team management, and truly understand all the responsibilities of a manager.
-                                        We learned processes of production, project plan creation, design documentation, review standards, testing, and how to be a good manager.                            
-                                    </p>
-                                </div>
-                                <div class="col-sm-2">
-                                    <img class="blurb-image" src="images/clipboard.jpg" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-2 course">
-                            <div class="row">
-                                <div class="col-sm-2">
-                                    <img class="blurb-image" src="images/test.jpg" />
-                                </div>
-                                <div class="col-sm-10 course-info">
-                                    <h4>Software Testing</h4>
-                                    <p>
-                                        Software Testing taught me so much about the testing process. It was during this course that I learned not only how to write sound, complete test, but also how to write code that was testable.
-                                        Coursework also taught me about various methods of software testing, as well as ways to write, evaluate, and manage software test.
-                                    </p>
-                                </div>                                
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-2 course">
-                            <div class="row">                                
-                                <div class="col-sm-10 course-info">
-                                    <h4>Technical Communication</h4>
-                                    <p>
-                                        Professional communication is something that all professionals should know, and it is a skill that software engineers need to know. 
-                                        Coursework in this class aimed to teach us styles for writing internal and external emails, analyzing documents for correctness, and the skills needed
-                                        to conduct presentations in focused mannner.
-                                    </p>
-                                </div>
-                                <div class="col-sm-2">
-                                    <img class="blurb-image" src="images/chat.jpg" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-2 course">
-                            <div class="row">
-                                <div class="col-sm-2">
-                                    <img class="blurb-image" src="images/linear.png" />
-                                </div>
-                                <div class="col-sm-10 course-info">
-                                    <h4>Linear Algebra</h4>
-                                    <p>
-                                        Linear algebra was a course that helped teach me the fundamentals I needed for computer graphics. It gave me the insight needed to do matrix multiplication,
-                                        and taught me skills that helped manipulate objects in computer generated 3d space.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-					</div>
-				</div>
-				
-				<div id="reflections" class="col-sm-12 page" index="3">
-                    <!-- General Education Reflection -->
-                    <div class="row page-header">
-                        <div class="col-sm-8 col-sm-offset-2">
-                            <h3>General Education Reflection</h3>
-                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="education" class="col-sm-12 page" index="2">
+                <div class="row page-header">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h3>Education</h3>
                     </div>
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2">
                             <div>
                                 <p>
-                                    For general education I took: Economics of Discrimination, World Religions, and Ethics
-                                </p>
-
-                                <p>
-                                    In the short term, I hope to graduate college and get a job working at a game development company.
-                                    I view the environment as extremely fun, and I think game developers provide enjoyment for many people.
-                                    The work environment is very relaxed and the work sounds like it will be fun.
-                                    I would love to be involved in a company like this, helping make games that people enjoy.
-                                    The work requires knowledge of math and graphics, as well as programming challenges that occur with trying to add new ways to play.
-                                </p>
-
-                                <p>
-                                    Ethics is a course that I believe will impact my future. It was through this course that I learned about moral dilemmas,
-                                    and the tools needed to evaluate said dilemmas. This course taught me that there are multiple ways to view situations, and multiple ways to approach situations to
-                                    ensure the most morally upright path is taken.
-                                </p>
-
-                                <p>
-                                    I've had three software engineering courses that made a point to cover ethics, and my previous coursework helped me during these classes.
-                                    Ethics is a very important concept in software engineering, as everyday more and more objects in our world are being run by computer programs.
-                                    The wide spread effects of code that was built unethically could result in the deaths of a single hosptial patient who is undergoing treatments for a life threantening condition to the deaths of many thousands of people due to poorly managed nuclear control codes.
-                                    The impacts of all decisions that we make in software design and implementation have far-ranging effects that we must consider, which is where a good handle on ethics comes in. I view my enrollment in an ethics course as a plan for my future creating
-                                    ethically appropriate code.
-                                </p>
-
-                                <p>
-                                    An example of applied ethics in action, occured during a project management course at ISU.
-                                    The course had the class split up into teams to create a system that allowed teachers to automatically take attendance without all the tedium normally needed.
-                                    During our project plan we had to come up with ethical ways of obtaining photos of each student for use by our facial recognition software.
-                                    I view this as an example of applied ethics while creating an engineering solution.
+                                    Below I have chosen to highlight some of the more notable classes that I have taken at Iowa State. These classes are ones
+                                    that I feel have influenced my education and have given me valuable experience outside
+                                    of the generic programming track.
                                 </p>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Cumulative Reflection -->
-                    <div class="row page-header">
-                        <div class="col-sm-8 col-sm-offset-2">
-                            <h3>Cumulative Reflection</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2">
-                            <div>
+                    <div class="col-sm-8 col-sm-offset-2 course">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <img class="img-responsive" src="images/WebGL.png" />
+                            </div>
+                            <div class="col-xs-10 course-info">
+                                <h4>Intro to Computer Graphics</h4>
                                 <p>
-                                    During the course of my education at Iowa State I have learned many skills that enable me to construct better solutions to every problem I face.
-                                    The education I've gained during my schooling has given me the toolset needed to approach any technical problem I face and design a system to solve it.
-                                    I can use these skills to help employers in the real world create low-cost, efficient systems.
+                                    This course gave me the fundamentals of how to render objects in 3D space. It taught me about shaders, matrix manipulations,
+                                    applying textures, and how to apply these concepts in a browser. This class taught me
+                                    how to program graphics using WebGL via Javascript, and briefly mentioned the intricacies
+                                    of higher level languages. For the final presentation in this class I prototyped an algorithm
+                                    that would create smooth randomly generated terrain using sample terrain tiles.
                                 </p>
-                                <p>
-                                    During my classes at ISU I have been given the opportunity to work in numerous groups. Some semester long projects, as well as quarter semester projects.
-                                    Each project I have been involved in has taught me many concepts that I can carry with me to future projects. Group projects have enabled me to develop managerial experience,
-                                    and cultivate skills that let me communicate to members, indifferent of their technical background. I am able to understand the role that professional responsibility has in a workplace, and I
-                                    am familiar with the guidelines for evaluating ethnical problems that may arise as I work in the real world.
-                                </p>
-                                <p>
-                                    Class projects have helped in enriching my problem solving methodology. When I encounter a task that is outside my knowledge set I take to the internet and I begin searching for my problem and evaluating
-                                    approaches that other people have made. With the knowledge I gain from online resources I can take another attempt at developing my solution and incorporating all the new information I have learned.
-                                </p>
-                                <p>
-                                    Outside of class I've been involved in Game Development club on campus. This is a club devoted to investigating what makes a game fun, and exploring how to make good games.
-                                    We also host game jams for people to participate in, as well as workshops where members with a skill take an hour and teach other members how to do a certain task.
-                                </p>
-                                <p>
-                                    In my free time, outside of classes and clubs, I have taken up the hobby of game design. I seek to learn more about game programming through creating prototypes and seeing what I can do.
-                                    I've learned skills like Unity and Unreal Engine 4 through this means, and when I think of a game concept that could be interesting to implement I take a crack at it and see how I do.
-                                    I view learning through experimentation to be a learning style well suited to me.
-                                </p>
-                                <p>
-                                    If I were to re-start my ISU education, I would seek out courses I was really interested in earlier; as that would open more doors later on to other classes I would be interested in taking.
-                                    I might also have taken my classes in a progression which enabled a more fluid learning experience; as opposed to the one I did which felt like it jumped around between concepts every semester.
-                                </p>
-
                             </div>
                         </div>
                     </div>
-				</div>
-				
-				<div id="experience" class="col-sm-12 page" index="4">
-					<div class="row page-header">
-						<div class="col-sm-8 col-sm-offset-2">
-							<h3>Work Experience</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-8 col-sm-offset-2">
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h3 class="panel-title">
+                    <div class="col-sm-8 col-sm-offset-2 course">
+                        <div class="row">
+                            <div class="col-xs-2 visible-xs">
+                                <img class="img-responsive" src="images/joypad.png" />
+                            </div>
+                            <div class="col-xs-10 course-info">
+                                <h4>Computer Game Programming</h4>
+                                <p>
+                                    After learning about graphics I decided to pursue a class dedicated to teaching the concepts of programming games. This class
+                                    gave me introductions to XNA, Unity, AI algorithms, and some minor modelling in blender.
+                                    I took part in a semester long professional project where we marketed, and developed,
+                                    a game for the Battleship Iowa museum, working with a staff member on the ship. I also
+                                    researched and presented a 30 minute tutorial on game creation using CryEngine 3, showing
+                                    students how to build a simple game.
+                                </p>
+                            </div>
+                            <div class="col-xs-2 hidden-xs">
+                                <img class="img-responsive" src="images/joypad.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2 course">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <img class="img-responsive" src="images/spyglass.png" />
+                            </div>
+                            <div class="col-xs-10 course-info">
+                                <h4>Principles of Programming Languages</h4>
+                                <p>
+                                    Principles of Programming Languages was a class that focused on breaking down the common themes present in modern scripting
+                                    languages. We studied an in-house scripting language built using Java. The central idea
+                                    of this course was to introduce a concept of a language, look at how to implement it,
+                                    and then work with and extend the language. During our coursework we explored concepts
+                                    such as: Grammars, Interpreters, Memory, Garbage Collection, Lambdas, Type checking,
+                                    and variables. This class gave me an exceptional look into the mechanics that form languages
+                                    I use every day.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2 course">
+                        <div class="row">
+                            <div class="col-xs-2 visible-xs">
+                                <img class="img-responsive" src="images/clipboard.jpg" />
+                            </div>
+                            <div class="col-xs-10 course-info">
+                                <h4>Software Project Management</h4>
+                                <p>
+                                    Software Project Management was a class that sought to teach students about the core responsibilities of a project manager.
+                                    In this course students were split up into groups for four unique projects, in which
+                                    each student would be given the chance to be a project manager. It was through the coursework
+                                    and the projects that I was able to get a better understanding of team management, and
+                                    truly understand all the responsibilities of a manager. I learned processes of production,
+                                    project plan creation, design documentation, review standards, testing, and how to be
+                                    a good manager.
+                                </p>
+                            </div>
+                            <div class="col-xs-2 hidden-xs">
+                                <img class="img-responsive" src="images/clipboard.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2 course">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <img class="img-responsive" src="images/test.jpg" />
+                            </div>
+                            <div class="col-xs-10 course-info">
+                                <h4>Software Testing</h4>
+                                <p>
+                                    Software Testing taught me a lot about the testing process. It was during this course that I learned how to write
+                                    sound, complete test scenarios and how to write code that was testable. This course also taught
+                                    me about various software testing methodologies, as well as ways to write, evaluate, and
+                                    manage test suites for produced software.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2 course">
+                        <div class="row">
+                            <div class="col-xs-2 visible-xs">
+                                <img class="img-responsive" src="images/chat.jpg" />
+                            </div>
+                            <div class="col-xs-10 course-info">
+                                <h4>Technical Communication</h4>
+                                <p>
+                                    Professional communication is something that all professionals need
+                                    to know. The coursework in this class aimed to teach us styles for writing internal and external
+                                    emails, analyzing documents for correctness, and the skills needed to make clear, concise presentations.
+                                </p>
+                            </div>
+                            <div class="col-xs-2 hidden-xs">
+                                <img class="img-responsive" src="images/chat.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2 course">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <img class="img-responsive" src="images/linear.png" />
+                            </div>
+                            <div class="col-xs-10 course-info">
+                                <h4>Linear Algebra</h4>
+                                <p>
+                                    Linear algebra was a course that taught me the fundamentals for working with computer graphics. It gave me the insight
+                                    needed to do matrix multiplication, and taught me skills that will help me manipulate objects
+                                    in computer generated 3D space.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="reflections" class="col-sm-12 page" index="3">
+                <!-- General Education Reflection -->
+                <div class="row page-header">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h3>General Education Reflection</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div>
+                            <p>
+                                For general education I took: Economics of Discrimination, World Religions, and Ethics
+                            </p>
+
+                            <p>
+                                In the short term, I hope to graduate college and get a job working at a game development company. I view the environment
+                                as extremely fun, and I think game developers provide enjoyment for many people. The work
+                                environment is very relaxed and the work sounds like it will be fun. I would love to be involved
+                                in a company like this, helping make games that people enjoy. The work requires knowledge
+                                of math and graphics, as well as programming challenges that occur with trying to add new
+                                ways to play.
+                            </p>
+
+                            <p>
+                                Ethics is a course that I believe will impact my future. It was through this course that I learned about moral dilemmas,
+                                and the tools needed to evaluate said dilemmas. This course taught me there are multiple
+                                ways to view situations, and multiple ways to approach situations to ensure the most morally
+                                upright path is taken.
+                            </p>
+
+                            <p>
+                                I've had three software engineering courses that made a point to cover ethics, and my previous coursework helped me during
+                                these classes. Ethics is a very important concept in software engineering, as everyday more
+                                and more objects in our world are being run by computer programs. The wide spread effects
+                                of code that was built unethically could result in the deaths of a single hospital patient
+                                who is undergoing treatments for a life threatening condition to the deaths of many thousands
+                                of people due to poorly managed nuclear control codes. The impacts of all decisions that
+                                we make in software design and implementation have far-ranging effects that we must consider,
+                                which is where a good handle on ethics comes in. I view my enrollment in an ethics course
+                                as a plan for my future creating ethically appropriate code.
+                            </p>
+
+                            <p>
+                                An example of applied ethics in action occurred during a project management course at ISU. The course had the class split
+                                up into teams to create a system that allowed teachers to automatically take attendance without
+                                all the tedium normally needed. During our project plan we had to come up with ethical ways
+                                of obtaining photos of each student for use by our facial recognition software. I view this
+                                as an example of applied ethics while creating an engineering solution.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cumulative Reflection -->
+                <div class="row page-header">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h3>Cumulative Reflection</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div>
+                            <p>
+                                During the course of my education at Iowa State I have learned many skills that enable me to construct better solutions to
+                                every problem I face. The education I've gained during my schooling has given me the toolset
+                                needed to approach any technical problem I face and design a system to solve it. I can use
+                                these skills to help employers in the real world create low-cost, efficient systems.
+                            </p>
+                            <p>
+                                During my classes at ISU I have been given the opportunity to work in numerous groups. Some semester long projects, as well
+                                as quarter semester projects. Each project I have been involved in has taught me many concepts
+                                that I can carry with me to future projects. Group projects have enabled me to develop managerial
+                                experience, and cultivate skills that let me communicate to members, indifferent of their
+                                technical background. I am able to understand the role that professional responsibility has
+                                in a workplace, and I am familiar with the guidelines for evaluating ethnical problems that
+                                may arise as I work in the real world.
+                            </p>
+                            <p>
+                                Class projects have helped in enriching my problem solving methodology. When I encounter a task that is outside my knowledge
+                                set I take to the internet and I begin searching for my problem and evaluating approaches
+                                that other people have made. With the knowledge I gain from online resources I can take another
+                                attempt at developing my solution and incorporating all the new information I have learned.
+                            </p>
+                            <p>
+                                Outside of class I've been involved in Game Development club on campus. This is a club devoted to investigating what makes
+                                a game fun, and exploring how to make good games. We also host game jams for people to participate
+                                in, as well as workshops where members with a skill take an hour and teach other members
+                                how to do a certain task.
+                            </p>
+                            <p>
+                                In my free time, outside of classes and clubs, I have taken up the hobby of game design. I seek to learn more about game
+                                programming through creating prototypes and seeing what I can do. I've learned skills like
+                                Unity and Unreal Engine 4 through this means, and when I think of a game concept that could
+                                be interesting to implement I take a crack at it and see how I do. I view learning through
+                                experimentation to be a learning style well suited to me.
+                            </p>
+                            <p>
+                                If I were to re-start my ISU education, I would seek out courses I was really interested in earlier; as that would open more
+                                doors later on to other classes I would be interested in taking. I might also have taken
+                                my classes in a progression which enabled a more fluid learning experience; as opposed to
+                                the one I did which felt like it jumped around between concepts every semester.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="experience" class="col-sm-12 page" index="4">
+                <div class="row page-header">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h3>Work Experience</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
 										<strong>Rockwell Collins</strong> - <strong>(Internship)</strong>
 										<br/>
 										<span style="font-size: smaller">Cedar Rapids, Iowa</span>
 									</h3>
-									<div class="work-date">
-										<i class="fa fa-calendar"></i>
-										<span>May 2010 - August 2013</span>
-									</div>
-								</div>
-								<div class="panel-body">
-									<h4>What I did?</h4>
-									<ul>
-                                        <li>Designed and produced code for an automated transfer process of source control files using python and batch scripts</li>
-                                        <li>Developed comprehensive documentation for all produced code</li>
-                                        <li>Reviewed and executed test documents to ensure quality of product after a version update</li>
-                                        <li>Workload management over the course of a year long project</li>
-                                        <li>Trained new interns to ensure a smooth project transition</li>
-                                        <li>Worked with multiple source control systems</li>               
-                                   </ul>
-                                    <br />
-                                    <h4>What I learned?</h4>
-                                    <ul>
-                                        <li>C, C++ </li>
-                                        <li>Version control softwares including: Mercurial and SVN</li>
-                                        <li>Scripting experience in Lua, Python, DOS Batch</li>
-                                        <li>Small team management</li>
-                                        <li>Quality Assurance procedures</li>
-                                    </ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div id="projects" class="col-sm-12 page" index="5">
-					<div class="row page-header">
-						<div class="col-sm-8 col-sm-offset-2">
-							<h3>Personal Projects</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-8 col-sm-offset-2">
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h3 class="panel-title">Apple Dropper</h3>
-									<div class="engine-icons">
-										<img src="images/unity-icon.ico" title="Unity 5" alt="Unity"/>
-									</div>
-								</div>
-								<div class="panel-body">
-									<p>
-										Apple Dropper as one of my first attempts at making a game in the Unity engine. Icreated the game in about four hours. 
-                                        This game taught me how to set up the art in a game, build objects in the world to interact with, set up conditions for how the game ends, and how to program for the Unity engine. 
-                                        I learned about C#, the main loop Unity uses, and how to access other gameobjects in numerous ways.
-									</p>
-								</div>
-								<div class="panel-footer">
-									<div class="row">
-										<!--<div class="col-sm-6">Github Repository (Coming soon)</div>-->
-										<!--<div class="col-sm-6">Live Demo (Coming soon)</div>-->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+                                <div class="work-date hidden-xs">
+                                    <i class="fa fa-calendar"></i>
+                                    <span>May 2010 - August 2013</span>
+                                </div>
+                                <div class="work-date visible-xs">
+                                    <div>May 2010</div>
+                                    <div>August 2013</div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <h4>What I did?</h4>
+                                <ul>
+                                    <li>Designed and produced code for an automated transfer process of source control files
+                                        using python and batch scripts</li>
+                                    <li>Developed comprehensive documentation for all produced code</li>
+                                    <li>Reviewed and executed test documents to ensure quality of product after a version update</li>
+                                    <li>Workload management over the course of a year long project</li>
+                                    <li>Trained new interns to ensure a smooth project transition</li>
+                                    <li>Worked with multiple source control systems</li>
+                                </ul>
+                                <br />
+                                <h4>What I learned?</h4>
+                                <ul>
+                                    <li>C, C++ </li>
+                                    <li>Version control softwares including: Mercurial and SVN</li>
+                                    <li>Scripting experience in Lua, Python, DOS Batch</li>
+                                    <li>Small team management</li>
+                                    <li>Quality Assurance procedures</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-					<div class="row page-header">
-						<div class="col-sm-8 col-sm-offset-2">
-							<h3>Academic Projects</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-8 col-sm-offset-2">
-							<div class="row">
-                                <!-- Hot Potat.0 -->
-								<div class="col-sm-6">
-									<div class="panel panel-default">
-										<div class="panel-heading">
-											<h3 class="panel-title">Project Hot Potat.0</h3>
-											<div class="engine-icons">
-                                                <img src="images/unreal-engine-icon.png" title="Unreal Engine 4" alt="Unreal" />
-											</div>
-										</div>
-										<div class="panel-body">
-                                            <p>
-                                                Project Hot Ptoat.0 is a group project in the Game Design Senior Project at ISU. We are creating an arena fighter game comparable to Super Smash Brothers.
-                                            </p>
+            <div id="projects" class="col-sm-12 page" index="5">
+                <div class="row page-header">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h3>Personal Projects</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Apple Dropper</h3>
+                                <div class="engine-icons">
+                                    <img src="images/unity-icon.ico" title="Unity 5" alt="Unity" />
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <p>
+                                    Apple Dropper was one of my first attempts at making a game in the Unity engine. I created the game in about four hours. This
+                                    game taught me how to set up the art in a game, build objects in the world to interact
+                                    with, set up conditions for how the game ends, and how to program for the Unity engine.
+                                    I learned about C#, the main loop Unity uses, and how to access other gameo bjects in
+                                    numerous ways.
+                                </p>
+                            </div>
+                            <div class="panel-footer">
+                                <div class="row">
+                                    <!--<div class="col-sm-6">Github Repository (Coming soon)</div>-->
+                                    <!--<div class="col-sm-6">Live Demo (Coming soon)</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                                            Technology worked with:
-                                            <ul>
-                                                <li>Unreal Engine 4.9</li>
-                                                <li>Blueprint</li>
-                                                <li>C++</li>
-                                                <li>Git</li>
-                                            </ul>
-
-                                            Documents created:
-                                            <ul>
-                                                <li>Game Design Document</li>
-                                                <li>Presentations</li>
-                                            </ul>
-
-                                            <p>
-                                                On this project I worked as a main programmer and a resource for Unreal Engine questions.
-                                            </p>                                            
-										</div>
-										<div class="panel-footer">
-											<div class="row">
-												<div class="col-sm-6"><a href="https://git.ece.iastate.edu/tsdelude/potato" target="_blank">Git Repository</a></div>
-											</div>
-										</div>
-									</div>
-								</div>
-                                
-                                <!-- Senior Design -->
-								<div class="col-sm-6">
-									<div class="panel panel-default">
-										<div class="panel-heading">
-											<h3 class="panel-title">Software Engineering Senior Design Group Project</h3>
-											<div class="engine-icons">
-		
-											</div>
-										</div>
-										<div class="panel-body">
-											<p>
-                                                My group is designing a wireless controller that helps students learn to program in C, as well as Boost interest in STEM through our client's high school program.
-                                            </p>
-
-                                            Technology worked with:
-                                            <ul>
-                                                <li>C/C++</li>
-                                                <li>Bluetooth 4</li>
-                                                <li>Intel Edison</li>
-                                                <li>Multi-Threading</li>
-                                                <li>Serial Communication</li>
-                                                <li>PCB Design</li>
-                                                <li>Git</li>
-                                            </ul>
-
-                                            Documents created:
-                                            <ul>
-                                                <li>Project Plan</li>
-                                                <li>Design Document</li>
-                                                <li>Presentation</li>
-                                                <li>Weekly Reports</li>
-                                            </ul>
-
-                                            <p>
-                                                In this project I worked as both a Team Manager and a Key Concept Holder for the group.
-                                            </p>                                             
-										</div>
-										<div class="panel-footer">
-											<div class="row">
-												<div class="col-sm-6"><a href="https://git.ece.iastate.edu/jdkruege/May1624-Wireless-Controller" target="_blank">Git Repository</a></div>
-											</div>
-										</div>
-									</div>
-								</div>
-                                
-                                <!-- Othello -->
-                                <div class="col-sm-6">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h3 class="panel-title">Othello</h3>
-                                            <div class="engine-icons">
-                                                <img src="images/unity-icon.ico" title="Unity 5" alt="Unity" />
-                                            </div>
+                <div class="row page-header">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h3>Academic Projects</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="row">
+                            <!-- Hot Potat.0 -->
+                            <div class="col-sm-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Project Hot Potat.0</h3>
+                                        <div class="engine-icons">
+                                            <img src="images/unreal-engine-icon.png" title="Unreal Engine 4" alt="Unreal" />
                                         </div>
-                                        <div class="panel-body">
-                                            <p>
-                                                Othello was an individual project for a computer game programming course. The game has been created using the Unity engine.
-                                                The game has a two player mode, as well as an Artificial Intellignece mode with variable difficulties.
-                                            </p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>
+                                            Project Hot Ptoat.0 is a group project in the Game Design Senior Project at ISU. We are creating an arena fighter game comparable
+                                            to Super Smash Brothers.
+                                        </p>
 
-                                            What I learned:
-                                            <ul>
-                                                <li>Use of prepacked assets</li>
-                                                <li>Basic AI algorithms</li>
-                                                <li>Research and evlaution for AI algorithms</li>
-                                            </ul>
+                                        Technology worked with:
+                                        <ul>
+                                            <li>Unreal Engine 4.9</li>
+                                            <li>Blueprint</li>
+                                            <li>C++</li>
+                                            <li>Git</li>
+                                        </ul>
 
-                                            Technology worked with:
-                                            <ul>
-                                                <li>Unity 3D</li>
-                                                <li>C#</li>
-                                                <li>Mini-Max AI</li>
-                                            </ul>                                          
-                                        </div>
-                                        <div class="panel-footer">
-                                            <div class="row">
-                                                <div class="col-sm-6"><a href="https://github.com/Jdkruege/Othello" target="_blank">Git Repository</a></div>
-                                                <div class="col-sm-6"><a href="demos/web.html" target="_blank">Live Demo</a></div>
-                                            </div>
+                                        Documents created:
+                                        <ul>
+                                            <li>Game Design Document</li>
+                                            <li>Presentations</li>
+                                        </ul>
+
+                                        <p>
+                                            On this project I worked as a main programmer and a resource for Unreal Engine questions.
+                                        </p>
+                                    </div>
+                                    <div class="panel-footer">
+                                        <div class="row">
+                                            <div class="col-sm-6"><a href="https://git.ece.iastate.edu/tsdelude/potato" target="_blank">Git Repository</a></div>
                                         </div>
                                     </div>
                                 </div>
-                                
-                                <!-- Mars Rover -->
-                                <div class="col-sm-6">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h3 class="panel-title">Mars Rover Robot Simulation</h3>
-                                            <div class="engine-icons">
-                                                
-                                            </div>
+                            </div>
+
+                            <!-- Senior Design -->
+                            <div class="col-sm-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Software Engineering Senior Design Group Project</h3>
+                                        <div class="engine-icons">
+
                                         </div>
-                                        <div class="panel-body">
-                                            <p>
-                                                Mars Rover Robot Simulation was a group project for an embedded systems course.
-                                                I wrote low level system code to command an iRobot to traverse an obstacle course.
-                                                I built a system that issues orders to a robot, I could not see, through bluetooth, while the device reported all sensor data back to me to analyze.
-                                            </p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>
+                                            My group is designing a wireless controller that helps students learn to program in C, as well as Boost interest in STEM
+                                            through our client's high school program.
+                                        </p>
 
-                                            What I learned:
-                                            <ul>
-                                                <li>Low level system design</li>
-                                                <li>Efficiency and cleanliness in produced code</li>
-                                                <li>Calibration and utilization of aging components</li>
-                                            </ul>
+                                        Technology worked with:
+                                        <ul>
+                                            <li>C/C++</li>
+                                            <li>Bluetooth 4</li>
+                                            <li>Intel Edison</li>
+                                            <li>Multi-Threading</li>
+                                            <li>Serial Communication</li>
+                                            <li>PCB Design</li>
+                                            <li>Git</li>
+                                        </ul>
 
-                                            Technology worked with:
-                                            <ul>
-                                                <li>C</li>
-                                                <li>AT-Mega embedded processor</li>
-                                            </ul>
+                                        Documents created:
+                                        <ul>
+                                            <li>Project Plan</li>
+                                            <li>Design Document</li>
+                                            <li>Presentation</li>
+                                            <li>Weekly Reports</li>
+                                        </ul>
 
-                                            <p>
-                                                I worked with 3 other engineers to complete this project.
-                                            </p>
-                                        </div>
-                                        <div class="panel-footer">
-                                            <div class="row">
-                                                <!--<div class="col-sm-6"><a href="" target="_blank">Git Repository</a></div>-->
-                                            </div>
+                                        <p>
+                                            In this project I worked as both a Team Manager and a Key Concept Holder for the group.
+                                        </p>
+                                    </div>
+                                    <div class="panel-footer">
+                                        <div class="row">
+                                            <div class="col-sm-6"><a href="https://git.ece.iastate.edu/jdkruege/May1624-Wireless-Controller" target="_blank">Git Repository</a></div>
                                         </div>
                                     </div>
                                 </div>
-                                
-                                <!-- Twin Peaks -->
-                                <div class="col-sm-6">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h3 class="panel-title">Operation Twin Peaks</h3>
-                                            <div class="engine-icons">
-                                                <img src="images/lwjgl-icon.png" title="LWJGL" alt="LWJGL" />
-                                            </div>
+                            </div>
+
+                            <!-- Othello -->
+                            <div class="col-sm-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Othello</h3>
+                                        <div class="engine-icons">
+                                            <img src="images/unity-icon.ico" title="Unity 5" alt="Unity" />
                                         </div>
-                                        <div class="panel-body">
-                                            <p>
-                                                Operation Twin Peaks was a smester-long group project for a software development course.
-                                                My group attempted to build a first person shooter game in Java. We produced some base engine code, and some simple netcode, while learning a lot about how games need to be built.
-                                                We took an agile development approach to the project, where we split up the task among our three members and tried to complete as much as we could in our given field.                                             
-                                                I prototyped a terrain generation system that utilized black and white pictures, using some info I had read on the subject.
-                                            </p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>
+                                            Othello was an individual project for my computer game programming course. The game was created using the Unity engine.
+                                            The game has a two player mode, as well as an Artificial Intelligence mode with
+                                            variable difficulties.
+                                        </p>
 
-                                            What I learned:
-                                            <ul>
-                                                <li>Agile development</li>
-                                                <li>Components of a game engine</li>
-                                                <li>Terrain generation techniques</li>
-                                            </ul>
+                                        What I learned:
+                                        <ul>
+                                            <li>Use of prepacked assets</li>
+                                            <li>Basic AI algorithms</li>
+                                            <li>Research and evlaution for AI algorithms</li>
+                                        </ul>
 
-                                            Technology worked with:
-                                            <ul>
-                                                <li>Light Weight Java Games Library</li>
-                                                <li>Java</li>
-                                                <li>GLSL shaders</li>
-                                            </ul>
-
-                                            Documents created:
-                                            <ul>
-                                                <li>Design Document</li>
-                                            </ul>
-
-                                            <p>
-                                                I worked with two other engineers on this project, and I took the role of Team Manager, as well as team expert on 3D graphics and working in 3d space
-                                            </p>
-                                        </div>
-                                        <div class="panel-footer">
-                                            <div class="row">
-                                                <!--<div class="col-sm-6"><a href="" target="_blank">Git Repository</a></div>-->
-                                            </div>
+                                        Technology worked with:
+                                        <ul>
+                                            <li>Unity 3D</li>
+                                            <li>C#</li>
+                                            <li>Mini-Max AI</li>
+                                        </ul>
+                                    </div>
+                                    <div class="panel-footer">
+                                        <div class="row">
+                                            <div class="col-sm-6"><a href="https://github.com/Jdkruege/Othello" target="_blank">Git Repository</a></div>
+                                            <div class="col-sm-6"><a href="demos/web.html" target="_blank">Live Demo</a></div>
                                         </div>
                                     </div>
                                 </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="js/app.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-    </body>
+                            </div>
+
+                            <!-- Mars Rover -->
+                            <div class="col-sm-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Mars Rover Robot Simulation</h3>
+                                        <div class="engine-icons">
+
+                                        </div>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>
+                                            Mars Rover Robot Simulation was a group project for my embedded systems course. I wrote low level system code to command
+                                            an iRobot to traverse an obstacle course. I built a system that issues orders
+                                            to a robot, I could not see, through bluetooth, while the device reported all
+                                            sensor data back to me to analyze.
+                                        </p>
+
+                                        What I learned:
+                                        <ul>
+                                            <li>Low level system design</li>
+                                            <li>Efficiency and cleanliness in produced code</li>
+                                            <li>Calibration and utilization of aging components</li>
+                                        </ul>
+
+                                        Technology worked with:
+                                        <ul>
+                                            <li>C</li>
+                                            <li>AT-Mega embedded processor</li>
+                                        </ul>
+
+                                        <p>
+                                            I worked with 3 other engineers to complete this project.
+                                        </p>
+                                    </div>
+                                    <div class="panel-footer">
+                                        <div class="row">
+                                            <!--<div class="col-sm-6"><a href="" target="_blank">Git Repository</a></div>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Twin Peaks -->
+                            <div class="col-sm-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Operation Twin Peaks</h3>
+                                        <div class="engine-icons">
+                                            <img src="images/lwjgl-icon.png" title="LWJGL" alt="LWJGL" />
+                                        </div>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>
+                                            Operation Twin Peaks was a smester-long group project for my software development course. My group attempted to build a first
+                                            person shooter game in Java. We produced some base engine code, and some simple
+                                            netcode, while learning a lot about how games need to be built. We took an Agile
+                                            development approach to the project, where we split up the task among our three
+                                            members and tried to complete as much as we could in our given field. I prototyped
+                                            a terrain generation system that utilized black and white pictures, using some
+                                            info I had read on the subject.
+                                        </p>
+
+                                        What I learned:
+                                        <ul>
+                                            <li>Agile development</li>
+                                            <li>Components of a game engine</li>
+                                            <li>Terrain generation techniques</li>
+                                        </ul>
+
+                                        Technology worked with:
+                                        <ul>
+                                            <li>Light Weight Java Games Library</li>
+                                            <li>Java</li>
+                                            <li>GLSL shaders</li>
+                                        </ul>
+
+                                        Documents created:
+                                        <ul>
+                                            <li>Design Document</li>
+                                        </ul>
+
+                                        <p>
+                                            I worked with two other engineers on this project, and I took the role of Team Manager, as well as team expert on 3D graphics
+                                            and working in 3d space
+                                        </p>
+                                    </div>
+                                    <div class="panel-footer">
+                                        <div class="row">
+                                            <!--<div class="col-sm-6"><a href="" target="_blank">Git Repository</a></div>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

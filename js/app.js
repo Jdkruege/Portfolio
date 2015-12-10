@@ -8,6 +8,7 @@ $(document).ready(function() {
 function changeActiveSection(activeElement) {
 	$('.active-section').removeClass('active-section');
 	activeElement.addClass('active-section');
+	$('#header-menu').collapse('hide');
 }
 
 function slideContent(target) {

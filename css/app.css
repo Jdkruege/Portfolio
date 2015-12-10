@@ -1,21 +1,14 @@
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 50;
-  margin: 0 !important;
-}
-header nav {
+.header-nav {
   background-color: #666699;
   height: 50px;
   padding-left: 15px;
   padding-right: 15px;
+  border: 0;
 }
-header li:hover {
+.header-nav li:hover {
   cursor: pointer !important;
 }
-header li a {
+.header-nav li a {
   color: white !important;
   cursor: pointer !important;
   display: block;
@@ -38,7 +31,7 @@ header li a {
   transition-property: color;
   transition-timing-function: ease;
 }
-header li a:before {
+.header-nav li a:before {
   position: absolute;
   top: 65%;
   left: 50%;
@@ -49,20 +42,39 @@ header li a:before {
   transition: text-shadow 0.2s, color 0.2s;
   transform: translateX(-50%);
 }
-header li a:hover {
+.header-nav li a:hover {
   background-color: #151843 !important;
 }
-header li a:hover:before {
+.header-nav li a:hover:before {
   color: white;
 }
-header li.active-section {
+.header-nav li.active-section {
   background-color: #151843 !important;
 }
-header li.home-button {
+.header-nav li.home-button {
   background-color: #666699 !important;
+}
+.header-nav .navbar-collapse {
+  border: 0;
+}
+.header-nav .navbar-collapse.in li,
+.header-nav .navbar-collapse.collapsing li {
+  background-color: #f8f8f8 !important;
+}
+.header-nav .navbar-collapse.in li a,
+.header-nav .navbar-collapse.collapsing li a {
+  color: #555 !important;
+}
+.header-nav .navbar-collapse.in li.active-section a,
+.header-nav .navbar-collapse.collapsing li.active-section a {
+  background-color: #eee !important;
 }
 #home {
   background-color: #666699;
+}
+.headshot {
+  margin-left: auto;
+  margin-right: auto;
 }
 .page {
   position: absolute;
@@ -131,6 +143,9 @@ header li.home-button {
   position: absolute;
   right: 25px;
   top: 5px;
+}
+.work-date.visible-xs {
+  text-align: right;
 }
 
 #home .personal {
